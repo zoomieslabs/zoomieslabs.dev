@@ -1,0 +1,23 @@
+# zoomieslabs.dev
+
+The ZoomiesLabs website. Plain static HTML and CSS: no framework, no build step, no JavaScript, no cookies, no trackers, and no requests to third-party domains.
+
+- `index.html`: the studio home
+- `retramo.html`: the Retramo page, served at `/retramo`
+- `404.html`: not-found page
+- `assets/site.css`: the one stylesheet, with the brand tokens
+- `assets/brand/`: logos and icons (the `-tight` files crop the same artwork to the drawing, for lockups)
+- `assets/fonts/`: Bricolage Grotesque, Atkinson Hyperlegible Next and Mono (latin subsets from Google Fonts, SIL Open Font License, licenses alongside)
+- `_headers`, `_redirects`: Cloudflare Pages config
+
+## Deploy
+
+Cloudflare Pages, connected to this repository: framework preset **None**, build command empty, build output directory **/**.
+
+## Preview locally
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open http://localhost:8000. (`/retramo` needs Cloudflare's clean URLs; locally, open `/retramo.html`.)

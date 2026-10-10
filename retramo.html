@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Retramo · Pick up where you left off</title>
+<meta name="description" content="Retramo is a free VS Code extension that tells you what you were in the middle of, what changed while you were away, and what to review first. Local by default, MIT.">
+<link rel="canonical" href="https://zoomieslabs.dev/retramo">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/atkinson-hyperlegible-next.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css">
+<meta name="theme-color" content="#F7F7FA" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1022" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ZoomiesLabs">
+<meta property="og:title" content="Retramo · Pick up where you left off">
+<meta property="og:description" content="A free VS Code extension that tells you what you were in the middle of, what changed while you were away, and what to review first.">
+<meta property="og:url" content="https://zoomieslabs.dev/retramo">
+<meta property="og:image" content="https://zoomieslabs.dev/assets/media/banner-light.png">
+<meta property="og:image:width" content="2560">
+<meta property="og:image:height" content="640">
+<meta property="og:image:alt" content="Retramo: pick up where you left off">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Retramo · Pick up where you left off">
+<meta name="twitter:description" content="A free VS Code extension that tells you what you were in the middle of, what changed while you were away, and what to review first.">
+<meta name="twitter:image" content="https://zoomieslabs.dev/assets/media/banner-light.png">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="lockup" href="/" aria-label="ZoomiesLabs, home">
+      <picture>
+        <source srcset="/assets/brand/zoomieslabs-mark-on-dark-tight.svg" media="(prefers-color-scheme: dark)">
+        <img src="/assets/brand/zoomieslabs-mark-on-light-tight.svg" alt="" width="46" height="32">
+      </picture>
+      <span class="wordmark">Zoomies<span>Labs</span></span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/#tools">Tools</a></li>
+        <li><a href="/#principles">Principles</a></li>
+        <li><a href="https://github.com/zoomieslabs">GitHub</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="r-hero" aria-labelledby="hero-title">
+    <div class="container">
+      <div class="r-lockup">
+        <img src="/assets/brand/retramo-icon.svg" alt="" width="56" height="56">
+        <div>
+          <span class="pwm"><span class="re">re</span>tramo</span>
+          <p class="endorse">by ZoomiesLabs</p>
+        </div>
+      </div>
+      <h1 id="hero-title">Pick up where you left off.</h1>
+      <p class="lead body-l measure">When you come back after an interruption, Retramo tells you what you were in the middle of, what changed while you were away, and what to review first. Made for people with ADHD, and for anyone who works alongside AI agents.</p>
+      <figure class="demo">
+        <img src="/assets/media/demo.gif" width="1200" height="750" loading="lazy" alt="Retramo in VS Code: you leave, an agent commits a fix while you're away, and when you run “I'm back” the panel shows what you were in the middle of, the new commit, the changed files, and a diff of only what changed since you left.">
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" id="install" aria-labelledby="install-title">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">01 · Install</span>
+        <h2 id="install-title">Free, and ready in a minute.</h2>
+      </div>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://marketplace.visualstudio.com/items?itemName=zoomieslabs.retramo">VS Code Marketplace</a>
+        <a class="btn btn-secondary" href="https://open-vsx.org/extension/zoomieslabs/retramo">Open VSX (Cursor, VSCodium, Windsurf)</a>
+      </div>
+      <p class="install-row"><code class="cmd">ext install zoomieslabs.retramo</code></p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="why-title">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">02 · How it works</span>
+        <h2 id="why-title">Quiet until you need it.</h2>
+      </div>
+      <ul class="principles">
+        <li class="card"><h3>Works with any agent</h3><p>Copilot, Claude Code, Cursor's agent, a teammate or a <code>git pull</code>. Retramo doesn't care who changed the code.</p></li>
+        <li class="card"><h3>Everything stays on your machine</h3><p>No telemetry unless you opt in, and no code ever saved or sent by default.</p></li>
+        <li class="card"><h3>Two actions, no setup</h3><p>“I'm leaving” and “I'm back”. It also saves a session on its own when you step away.</p></li>
+      </ul>
+      <p class="docs-link"><a href="https://github.com/zoomieslabs/Retramo">Full documentation and privacy details on GitHub</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <a class="lockup" href="/" aria-label="ZoomiesLabs, home">
+        <img src="/assets/brand/zoomieslabs-mark-on-dark-tight.svg" alt="" width="29" height="20">
+        <span class="wordmark">Zoomies<span>Labs</span></span>
+      </a>
+      <ul>
+        <li><a href="https://zoomieslabs.dev/">zoomieslabs.dev</a></li>
+        <li><a href="mailto:hello@zoomieslabs.dev">hello@zoomieslabs.dev</a></li>
+        <li><a href="https://github.com/zoomieslabs">github.com/zoomieslabs</a></li>
+      </ul>
+    </div>
+    <p class="legal">© 2026 ZoomiesLabs. Retramo is open source under the MIT license.</p>
+  </div>
+</footer>
+</body>
+</html>

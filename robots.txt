@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zoomieslabs.dev/sitemap.xml

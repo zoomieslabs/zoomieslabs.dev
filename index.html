@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZoomiesLabs · Small, sharp tools that respect your attention</title>
+<meta name="description" content="ZoomiesLabs builds developer tools that run on your machine, do one job well, and never interrupt you. Open source, MIT. Makers of Retramo for VS Code.">
+<link rel="canonical" href="https://zoomieslabs.dev/">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/atkinson-hyperlegible-next.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css">
+<meta name="theme-color" content="#F7F7FA" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1022" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ZoomiesLabs">
+<meta property="og:title" content="ZoomiesLabs · Small, sharp tools that respect your attention">
+<meta property="og:description" content="Developer tools that run on your machine, do one job well, and never interrupt you. Open source, MIT.">
+<meta property="og:url" content="https://zoomieslabs.dev/">
+<meta property="og:image" content="https://zoomieslabs.dev/assets/media/banner-light.png">
+<meta property="og:image:width" content="2560">
+<meta property="og:image:height" content="640">
+<meta property="og:image:alt" content="Retramo: pick up where you left off">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ZoomiesLabs · Small, sharp tools that respect your attention">
+<meta name="twitter:description" content="Developer tools that run on your machine, do one job well, and never interrupt you. Open source, MIT.">
+<meta name="twitter:image" content="https://zoomieslabs.dev/assets/media/banner-light.png">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="lockup" href="/" aria-label="ZoomiesLabs, home">
+      <picture>
+        <source srcset="/assets/brand/zoomieslabs-mark-on-dark-tight.svg" media="(prefers-color-scheme: dark)">
+        <img src="/assets/brand/zoomieslabs-mark-on-light-tight.svg" alt="" width="46" height="32">
+      </picture>
+      <span class="wordmark">Zoomies<span>Labs</span></span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#principles">Principles</a></li>
+        <li><a href="https://github.com/zoomieslabs">GitHub</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <a class="pill" href="/retramo">
+          <img src="/assets/brand/retramo-icon.svg" alt="" width="18" height="18">
+          New: Retramo for VS Code
+        </a>
+        <h1 id="hero-title">Small, sharp tools that respect your attention.</h1>
+        <p class="lead">We build developer tools that run on your machine, do one job well, and never interrupt you. Open source, MIT.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="/retramo#install">Install Retramo</a>
+          <a class="btn btn-secondary" href="https://github.com/zoomieslabs">View on GitHub</a>
+        </div>
+      </div>
+
+      <figure class="panel" aria-label="Example of the Retramo panel after you come back">
+        <div class="panel-head">
+          <picture>
+            <source srcset="/assets/brand/retramo-glyph-on-dark-tight.svg" media="(prefers-color-scheme: dark)">
+            <img src="/assets/brand/retramo-glyph-on-light-tight.svg" alt="" width="42" height="34">
+          </picture>
+          <span class="panel-label">RETRAMO</span>
+          <span class="panel-away">away 2 h 14 min</span>
+        </div>
+
+        <div class="panel-block">
+          <span class="panel-title">You were in the middle of</span>
+          <p class="panel-intent">Refactoring <code>parseConfig()</code> in <code>src/config/loader.ts</code></p>
+        </div>
+
+        <div class="panel-block files">
+          <span class="panel-title">What changed while you were away</span>
+          <ul class="panel-files">
+            <li class="file modified"><span class="dot" aria-hidden="true"></span><span class="sr">Modified: </span><span class="path">src/config/loader.ts</span><span class="add">+18</span><span class="del">−4</span></li>
+            <li class="file added"><span class="dot" aria-hidden="true"></span><span class="sr">Added: </span><span class="path">src/config/schema.ts</span><span class="add">+42</span><span class="del">−0</span></li>
+            <li class="file modified"><span class="dot" aria-hidden="true"></span><span class="sr">Modified: </span><span class="path">test/loader.test.ts</span><span class="add">+9</span><span class="del">−2</span></li>
+            <li class="file modified"><span class="dot" aria-hidden="true"></span><span class="sr">Modified: </span><span class="path">package.json</span><span class="add">+1</span><span class="del">−1</span></li>
+          </ul>
+          <p class="panel-commits">2 new commits · by Ana, and a <code>git pull</code></p>
+        </div>
+
+        <div class="panel-review">
+          <span class="panel-title">Review first</span>
+          <p><code>loader.ts</code> changed while you were away. It's the file you were editing.</p>
+        </div>
+
+        <p class="panel-foot">Local only. Nothing leaves your machine.</p>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" id="tools" aria-labelledby="tools-title">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">01 · Tools</span>
+        <h2 id="tools-title">What we make.</h2>
+      </div>
+      <a class="card tool" href="/retramo">
+        <img src="/assets/brand/retramo-icon.svg" alt="" width="80" height="80">
+        <div>
+          <span class="pwm"><span class="re">re</span>tramo</span>
+          <p>Pick up where you left off.</p>
+          <span class="go">See Retramo <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="section" id="principles" aria-labelledby="principles-title">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">02 · Principles</span>
+        <h2 id="principles-title">What we believe.</h2>
+      </div>
+      <ul class="principles">
+        <li class="card"><h3>Local by default</h3><p>Your code and your data stay on your machine.</p></li>
+        <li class="card"><h3>Never steals focus</h3><p>No popups, no panels opening on their own.</p></li>
+        <li class="card"><h3>Says exactly what it does</h3><p>Open source, and every byte that can leave your machine is documented.</p></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <a class="lockup" href="/" aria-label="ZoomiesLabs, home">
+        <img src="/assets/brand/zoomieslabs-mark-on-dark-tight.svg" alt="" width="29" height="20">
+        <span class="wordmark">Zoomies<span>Labs</span></span>
+      </a>
+      <ul>
+        <li><a href="https://zoomieslabs.dev/">zoomieslabs.dev</a></li>
+        <li><a href="mailto:hello@zoomieslabs.dev">hello@zoomieslabs.dev</a></li>
+        <li><a href="https://github.com/zoomieslabs">github.com/zoomieslabs</a></li>
+      </ul>
+    </div>
+    <p class="legal">© 2026 ZoomiesLabs. Retramo is open source under the MIT license.</p>
+  </div>
+</footer>
+</body>
+</html>
