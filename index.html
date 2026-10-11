@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ZoomiesLabs · Small, sharp tools that respect your attention</title>
+<title>ZoomiesLabs</title>
 <meta name="description" content="ZoomiesLabs builds developer tools that run on your machine, do one job well, and never interrupt you. Open source, MIT. Makers of Retramo for VS Code.">
 <link rel="canonical" href="https://zoomieslabs.dev/">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
@@ -41,94 +41,71 @@
     </a>
     <nav class="site-nav" aria-label="Main">
       <ul>
-        <li><a href="#tools">Tools</a></li>
-        <li><a href="#principles">Principles</a></li>
+        <li><a href="/retramo">Retramo</a></li>
         <li><a href="https://github.com/zoomieslabs">GitHub</a></li>
+        <li><a href="mailto:hello@zoomieslabs.dev">Contact</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
 <main id="main">
-  <section class="hero" aria-labelledby="hero-title">
-    <div class="container hero-grid">
-      <div class="hero-copy">
-        <a class="pill" href="/retramo">
-          <img src="/assets/brand/retramo-icon.svg" alt="" width="18" height="18">
-          New: Retramo for VS Code
-        </a>
-        <h1 id="hero-title">Small, sharp tools that respect your attention.</h1>
-        <p class="lead">We build developer tools that run on your machine, do one job well, and never interrupt you. Open source, MIT.</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="/retramo#install">Install Retramo</a>
-          <a class="btn btn-secondary" href="https://github.com/zoomieslabs">View on GitHub</a>
-        </div>
+  <section class="intro" aria-labelledby="intro-title">
+    <div class="container">
+      <h1 id="intro-title">Small, sharp tools that respect your attention.</h1>
+      <div class="prose lead">
+        <p>ZoomiesLabs is a small, independent studio. We make open-source developer tools that run on your machine, do one job well, and stay quiet until you ask for them.</p>
+        <p>The name comes from the zoomies, the sudden bursts of energy a dog gets when it races around the house. Anyone with ADHD knows the pattern: a burst of focus, real momentum, and then the thread slips. We build for the moment you come back.</p>
       </div>
-
-      <figure class="panel" aria-label="Example of the Retramo panel after you come back">
-        <div class="panel-head">
-          <picture>
-            <source srcset="/assets/brand/retramo-glyph-on-dark-tight.svg" media="(prefers-color-scheme: dark)">
-            <img src="/assets/brand/retramo-glyph-on-light-tight.svg" alt="" width="42" height="34">
-          </picture>
-          <span class="panel-label">RETRAMO</span>
-          <span class="panel-away">away 2 h 14 min</span>
-        </div>
-
-        <div class="panel-block">
-          <span class="panel-title">You were in the middle of</span>
-          <p class="panel-intent">Refactoring <code>parseConfig()</code> in <code>src/config/loader.ts</code></p>
-        </div>
-
-        <div class="panel-block files">
-          <span class="panel-title">What changed while you were away</span>
-          <ul class="panel-files">
-            <li class="file modified"><span class="dot" aria-hidden="true"></span><span class="sr">Modified: </span><span class="path">src/config/loader.ts</span><span class="add">+18</span><span class="del">−4</span></li>
-            <li class="file added"><span class="dot" aria-hidden="true"></span><span class="sr">Added: </span><span class="path">src/config/schema.ts</span><span class="add">+42</span><span class="del">−0</span></li>
-            <li class="file modified"><span class="dot" aria-hidden="true"></span><span class="sr">Modified: </span><span class="path">test/loader.test.ts</span><span class="add">+9</span><span class="del">−2</span></li>
-            <li class="file modified"><span class="dot" aria-hidden="true"></span><span class="sr">Modified: </span><span class="path">package.json</span><span class="add">+1</span><span class="del">−1</span></li>
-          </ul>
-          <p class="panel-commits">2 new commits · by Ana, and a <code>git pull</code></p>
-        </div>
-
-        <div class="panel-review">
-          <span class="panel-title">Review first</span>
-          <p><code>loader.ts</code> changed while you were away. It's the file you were editing.</p>
-        </div>
-
-        <p class="panel-foot">Local only. Nothing leaves your machine.</p>
-      </figure>
     </div>
   </section>
 
-  <section class="section" id="tools" aria-labelledby="tools-title">
-    <div class="container">
-      <div class="section-head">
-        <span class="eyebrow">01 · Tools</span>
-        <h2 id="tools-title">What we make.</h2>
-      </div>
-      <a class="card tool" href="/retramo">
-        <img src="/assets/brand/retramo-icon.svg" alt="" width="80" height="80">
-        <div>
+  <section class="product" aria-labelledby="retramo-title">
+    <div class="container product-grid">
+      <div>
+        <h2 id="retramo-title" class="product-name">
+          <img src="/assets/brand/retramo-icon.svg" alt="" width="40" height="40">
           <span class="pwm"><span class="re">re</span>tramo</span>
-          <p>Pick up where you left off.</p>
-          <span class="go">See Retramo <span aria-hidden="true">→</span></span>
+        </h2>
+        <p class="tagline">Pick up where you left off.</p>
+        <div class="prose">
+          <p>Our first tool is a VS Code extension for the moment you sit back down. It tells you what you were in the middle of, what changed while you were away, and what to review first.</p>
+          <p>It doesn't care who changed the code: Copilot, Claude Code, a teammate or a <code>git pull</code>. Free, MIT-licensed, and nothing leaves your machine unless you turn it on.</p>
         </div>
-      </a>
-    </div>
-  </section>
-
-  <section class="section" id="principles" aria-labelledby="principles-title">
-    <div class="container">
-      <div class="section-head">
-        <span class="eyebrow">02 · Principles</span>
-        <h2 id="principles-title">What we believe.</h2>
+        <div class="get">
+          <a class="btn btn-primary" href="/retramo#install">Install Retramo</a>
+          <a href="/retramo">How it works</a>
+        </div>
       </div>
-      <ul class="principles">
-        <li class="card"><h3>Local by default</h3><p>Your code and your data stay on your machine.</p></li>
-        <li class="card"><h3>Never steals focus</h3><p>No popups, no panels opening on their own.</p></li>
-        <li class="card"><h3>Says exactly what it does</h3><p>Open source, and every byte that can leave your machine is documented.</p></li>
-      </ul>
+
+      <figure class="shot" aria-label="What Retramo's panel shows when you come back">
+        <div class="shot-bar">
+          <span class="shot-tab"><img src="/assets/brand/retramo-glyph-on-dark-tight.svg" alt="" width="42" height="34">I'm back</span>
+        </div>
+        <div class="shot-body">
+          <h3>I'm back</h3>
+          <h4>You were in the middle of</h4>
+          <p class="intent">Refactoring parseConfig() in loader.ts</p>
+
+          <h4>While you were away (2 h 14 min)</h4>
+          <h5>New commits</h5>
+          <ul>
+            <li><span class="chip hash">a41c9e2</span><span>Validate config with a schema <span class="by">· Ana</span></span></li>
+            <li><span class="chip hash">7f03b18</span><span>Bump yaml to 2.6 <span class="by">· Ana</span></span></li>
+          </ul>
+          <h5>Changed files</h5>
+          <ul>
+            <li><span class="chip">src/config/loader.ts</span><span class="st modified">modified</span></li>
+            <li><span class="chip">src/config/schema.ts</span><span class="st added">added</span></li>
+            <li><span class="chip">test/loader.test.ts</span><span class="st modified">modified</span></li>
+            <li><span class="chip">package.json</span><span class="st modified">modified</span></li>
+          </ul>
+
+          <h4>You were in</h4>
+          <ul><li><span class="chip">src/config/loader.ts:42</span></li></ul>
+        </div>
+        <figcaption class="shot-foot">Local only. Nothing leaves your machine.</figcaption>
+      </figure>
     </div>
   </section>
 </main>

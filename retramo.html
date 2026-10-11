@@ -41,58 +41,52 @@
     </a>
     <nav class="site-nav" aria-label="Main">
       <ul>
-        <li><a href="/#tools">Tools</a></li>
-        <li><a href="/#principles">Principles</a></li>
+        <li><a href="/retramo" aria-current="page">Retramo</a></li>
         <li><a href="https://github.com/zoomieslabs">GitHub</a></li>
+        <li><a href="mailto:hello@zoomieslabs.dev">Contact</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
 <main id="main">
-  <section class="r-hero" aria-labelledby="hero-title">
+  <section class="r-intro" aria-labelledby="hero-title">
     <div class="container">
-      <div class="r-lockup">
-        <img src="/assets/brand/retramo-icon.svg" alt="" width="56" height="56">
+      <div class="r-name">
+        <img src="/assets/brand/retramo-icon.svg" alt="" width="52" height="52">
         <div>
           <span class="pwm"><span class="re">re</span>tramo</span>
-          <p class="endorse">by ZoomiesLabs</p>
+          <p class="by">by ZoomiesLabs</p>
         </div>
       </div>
       <h1 id="hero-title">Pick up where you left off.</h1>
-      <p class="lead body-l measure">When you come back after an interruption, Retramo tells you what you were in the middle of, what changed while you were away, and what to review first. Made for people with ADHD, and for anyone who works alongside AI agents.</p>
-      <figure class="demo">
-        <img src="/assets/media/demo.gif" width="1200" height="750" loading="lazy" alt="Retramo in VS Code: you leave, an agent commits a fix while you're away, and when you run “I'm back” the panel shows what you were in the middle of, the new commit, the changed files, and a diff of only what changed since you left.">
-      </figure>
-    </div>
-  </section>
-
-  <section class="section" id="install" aria-labelledby="install-title">
-    <div class="container">
-      <div class="section-head">
-        <span class="eyebrow">01 · Install</span>
-        <h2 id="install-title">Free, and ready in a minute.</h2>
+      <div class="prose lead">
+        <p>When you come back after an interruption, Retramo tells you what you were in the middle of, what changed while you were away, and what to review first. Made for people with ADHD, and for anyone who works alongside AI agents.</p>
       </div>
-      <div class="actions">
+      <div class="install" id="install">
         <a class="btn btn-primary" href="https://marketplace.visualstudio.com/items?itemName=zoomieslabs.retramo">VS Code Marketplace</a>
         <a class="btn btn-secondary" href="https://open-vsx.org/extension/zoomieslabs/retramo">Open VSX (Cursor, VSCodium, Windsurf)</a>
       </div>
-      <p class="install-row"><code class="cmd">ext install zoomieslabs.retramo</code></p>
+      <p class="install-cmd">Or press <code>Ctrl+P</code> in VS Code and run <code class="cmd">ext install zoomieslabs.retramo</code></p>
     </div>
   </section>
 
-  <section class="section" aria-labelledby="why-title">
+  <div class="container">
+    <figure class="demo">
+      <img src="/assets/media/demo.gif" width="1200" height="750" loading="lazy" alt="Retramo in VS Code: you leave, an agent commits a fix while you're away, and when you run “I'm back” the panel shows what you were in the middle of, the new commit, the changed files, and a diff of only what changed since you left.">
+      <figcaption>You leave, an agent commits a fix while you're away, and “I'm back” shows exactly what changed, down to the diff.</figcaption>
+    </figure>
+  </div>
+
+  <section class="notes" aria-labelledby="how-title">
     <div class="container">
-      <div class="section-head">
-        <span class="eyebrow">02 · How it works</span>
-        <h2 id="why-title">Quiet until you need it.</h2>
+      <h2 id="how-title">How it works</h2>
+      <div class="prose">
+        <p><strong>Works with any agent.</strong> Copilot, Claude Code, Cursor's agent, a teammate or a <code>git pull</code>. Retramo reads the state of your repository, so it doesn't care who changed the code.</p>
+        <p><strong>Everything stays on your machine.</strong> No telemetry unless you opt in, and no code ever saved or sent by default. Sessions are plain JSON files you can open and read.</p>
+        <p><strong>Two actions, no setup.</strong> “I'm leaving” and “I'm back”. If you forget, it saves a session on its own when you step away, and a single line in the status bar tells you something changed. It never opens anything by itself.</p>
       </div>
-      <ul class="principles">
-        <li class="card"><h3>Works with any agent</h3><p>Copilot, Claude Code, Cursor's agent, a teammate or a <code>git pull</code>. Retramo doesn't care who changed the code.</p></li>
-        <li class="card"><h3>Everything stays on your machine</h3><p>No telemetry unless you opt in, and no code ever saved or sent by default.</p></li>
-        <li class="card"><h3>Two actions, no setup</h3><p>“I'm leaving” and “I'm back”. It also saves a session on its own when you step away.</p></li>
-      </ul>
-      <p class="docs-link"><a href="https://github.com/zoomieslabs/Retramo">Full documentation and privacy details on GitHub</a></p>
+      <p class="docs"><a href="https://github.com/zoomieslabs/Retramo">Full documentation and privacy details on GitHub</a></p>
     </div>
   </section>
 </main>
